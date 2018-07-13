@@ -3,6 +3,16 @@ import java.io.*;
 import com.sun.org.apache.bcel.internal.generic.BREAKPOINT;
 import org.apache.poi.xwpf.usermodel.*;
 
+/*
+Make sure you have following lib:
+
+dom4j
+poi
+poi-ooxml
+poi-ooxml-schemas
+xmlbeans
+*/
+
 public class Main {
 
 
