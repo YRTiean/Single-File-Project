@@ -15,14 +15,14 @@ public class Main {
 
     public static void main(String []args) throws Exception {
 
-        folderDir  = "Y:\\Android Universe\\Convolution2018\\app\\src\\main\\res\\layout";
+        folderDir  = "DIRECTORY_LOCATION";
 
         File file = new File(folderDir);
         File [] listOfFiles = file.listFiles();
         document = new XWPFDocument();
 
         checkFilDir(file);
-        document.write(new FileOutputStream(new File("D:/MyTestFile.docx")));
+        document.write(new FileOutputStream(new File("OUTPUT_FILE_ABSOLUTE_NAME")));
         System.out.println(count);
     }
 
